@@ -39,7 +39,7 @@ end
 
 def find_a(array)
   array.each do |letter|
-    if letter.start_with("a")
+    if letter.start_with?("a")
       return letter
     end
   end
