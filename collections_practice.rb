@@ -21,5 +21,8 @@ def sort_array_char_count(array)
 end
 
 def swap_elements(array)
-  array[3] << array[4]
+  second = array[3]
+  third = array[4]
+  array[3] = third
+  array[4] = second
 end
