@@ -49,8 +49,8 @@ end
 
 def sum_array(array)
   total = 0
-  array.sort do |a, b|
-    total = total + (a + b)
+  array.each do |a|
+    total = total + a
   end
   total
 end
