@@ -43,6 +43,6 @@ def find_a(array)
     if letter.start_with?("a")
       new_array << letter
     end
-    new_array
   end
+  new_array
 end
