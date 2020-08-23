@@ -40,7 +40,7 @@ end
 def find_a(array)
   new_array = []
   array.each do |letter|
-    (letter).join
+    (letter).join()
     if letter.start_with?("a")
       (letter).to_a
       new_array << letter
