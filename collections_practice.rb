@@ -57,5 +57,14 @@ end
 
 def add_s(array)
   new_array = []
-  
+  array.each do |s|
+    if s == "feet"
+      new_array << s
+    else
+      loc = s.length
+      s << "s"
+      new_array << s
+    end
+  end
+  new_array
 end
