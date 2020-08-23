@@ -38,9 +38,11 @@ def kesha_maker(array)
 end
 
 def find_a(array)
+  new_array = []
   array.each do |letter|
     if letter.start_with?("a")
-      return letter
+      new_array << letter
     end
+    new_array
   end
 end
