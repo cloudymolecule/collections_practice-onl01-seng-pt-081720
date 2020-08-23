@@ -41,7 +41,6 @@ def find_a(array)
   new_array = []
   array.each do |letter|
     if letter.start_with?("a")
-      (letter).to_a
       new_array << letter
     end
     new_array
