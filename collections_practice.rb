@@ -36,3 +36,7 @@ def kesha_maker(array)
     new_array << sign
   end
 end
+
+def find_a(array)
+
+end
