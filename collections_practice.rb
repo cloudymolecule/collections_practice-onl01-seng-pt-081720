@@ -48,5 +48,9 @@ def find_a(array)
 end
 
 def sum_array(array)
-
+  total = 0
+  array.sort do |a, b|
+    total = a + b
+  end
+  total
 end
